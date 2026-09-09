@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: { unoptimized: true },
+  output: 'standalone',
+
+  images: {
+    unoptimized: true,
+  },
+
   trailingSlash: true,
+
   reactStrictMode: true,
 };
 
